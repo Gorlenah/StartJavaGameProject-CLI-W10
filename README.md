@@ -1,6 +1,10 @@
 # StartJavaGameProject-CLI-W10
 Instructions to start POLIMI Project on W10 with WSL &amp; Windows Terminal
 
+Main Guide: [Tutor Bertoni Guide](https://github.com/michele-bertoni/W10JavaCLI)
+
+This guide was inspired by the tutor's guide
+
 1. ## Download & install Font:
 	* DejaVu Sans Mono for Powerline.ttf
 
@@ -42,3 +46,14 @@ Instructions to start POLIMI Project on W10 with WSL &amp; Windows Terminal
       
   	* N.B: With ```"startingDirectory": "%USERPROFILE%/Desktop"``` you can choose the default starting directory of BUW
   	* Set: ``` "defaultProfile":"{2c4de342-38b7-51cf-b940-2309a097f518}", ``` (with same guid of ubuntu if you want it as default console)
+	* Set: Defaults Settings to change font, or add ```"fontFace"``` & ```"fontSize"``` to your favorite guid
+	```
+        "defaults":
+        {
+            // Put settings here that you want to apply to all profiles.
+		"fontFace": "DejaVu Sans Mono for Powerline",
+           	"fontSize": 12
+        },
+	```
+
+* N.B: You can copy settings.json present in this repo
