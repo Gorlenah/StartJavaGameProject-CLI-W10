@@ -57,3 +57,4 @@ This guide was inspired by the tutor's guide
 	```
 
 * N.B: You can copy settings.json present in this repo
+* N.B: After launching Windows Terminal, you can press F11 to view the console in full screen
