@@ -25,19 +25,19 @@ Instructions to start POLIMI Project on W10 with WSL &amp; Windows Terminal
   	* Install [Windows Terminal](https://github.com/microsoft/terminal/releases) (assets file.msixbundle)
   
   	* Launch It & go to setting (settings.json appears)
-  	* Search ```"name": "Ubuntu"``` in ```"list":``` (if ubuntu doesn't appear do this steps:)
-    		* Find ```"list":```
+  	* Search ```"name": "Ubuntu"``` in ```"list":``` (if ubuntu doesn't appear do this steps)<br>
+		* Find ```"list":```<br>
     
-    		* Add at the end of List Array
+		* Add at the end of List Array:
 		    ```
-			    {
-				"guid": "{2c4de342-38b7-51cf-b940-2309a097f518}",
-				"hidden": false,
-				"name": "Ubuntu",
-				"source": "Windows.Terminal.Wsl",
-				"startingDirectory": "%USERPROFILE%/Desktop"
-			    }
-		      ```
+		    {
+			"guid": "{2c4de342-38b7-51cf-b940-2309a097f518}",
+			"hidden": false,
+			"name": "Ubuntu",
+			"source": "Windows.Terminal.Wsl",
+			"startingDirectory": "%USERPROFILE%/Desktop"
+		    }
+		    ```
       
   	* N.B: With ```"startingDirectory": "%USERPROFILE%/Desktop"``` you can choose the default starting directory of BUW
   	* Set: ``` "defaultProfile":"{2c4de342-38b7-51cf-b940-2309a097f518}", ``` (with same guid of ubuntu if you want it as default console)
