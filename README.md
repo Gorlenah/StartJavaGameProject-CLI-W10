@@ -6,7 +6,7 @@ Main Guide: [Tutor Bertoni Guide](https://github.com/michele-bertoni/W10JavaCLI)
 This guide was inspired by the tutor's guide
 
 1. ## Download & install Font:
-	* DejaVu Sans Mono for Powerline.ttf
+	* DejaVu Sans Mono for Powerline.ttf - [LINK](https://github.com/Gorlenah/StartJavaGameProject-CLI-W10/blob/master/font/DejaVu%20Sans%20Mono%20for%20Powerline.ttf)
 
 2. ## Install Bash on Ubuntu on Windows (BUW)
 	* Open Windows PowerShell as Administrator by pressing ```WINDOWS + X``` and then selecting the correct voice
