@@ -27,7 +27,7 @@ This guide was inspired by the tutor's guide
   
 5. ## You can Run also on Windows Terminal:
   	* Install [Windows Terminal](https://github.com/microsoft/terminal/releases) (assets file.msixbundle)
-	or [MS-Store](https://www.microsoft.com/store/productId/9N0DX20HK701)
+	or from [MS-Store](https://www.microsoft.com/store/productId/9N0DX20HK701)
   
   	* Launch It & go to setting (settings.json appears)
   	* Search ```"name": "Ubuntu"``` in ```"list":``` (if ubuntu doesn't appear do this steps)<br>
